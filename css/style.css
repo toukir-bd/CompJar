@@ -1,0 +1,746 @@
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+body {
+	font-family: "Myriad Pro", "Open Sans", "Helvetica Neue", Arial;
+	font-size: 15px;
+	line-height: 1.7;
+	color: #686868;
+	letter-spacing:.25px;
+}
+
+section {
+	padding: 100px 0;
+}
+.core-container {
+	margin: 0;
+	padding: 0;
+}
+
+.core-container h1 {
+	margin: 0;
+	padding: 0;
+	font-size: 72px;
+	font-family: "Myriad Pro", "Open Sans", "Helvetica Neue", Arial;
+	font-weight: bold;
+	text-align: center;
+	color: #4c4c4c;
+	line-height: 64px;
+    height: 51px;
+}
+
+.core-container h2 {
+	margin: 30px 0 0 0;
+	padding: 0;
+	font-size: 30px;
+	font-family: "Myriad Pro", "Open Sans", "Helvetica Neue", Arial;
+	font-weight: bold;
+	text-align: center;
+	color: #939187;
+}
+
+.core-container p {
+	margin: 30px 0 0 0;
+	padding: 0;
+	font-size: 15px;
+	font-family: "Myriad Pro", "Open Sans", "Helvetica Neue", Arial;
+	font-weight: normal;
+	line-height: 26px;
+	text-align: center;
+	color: #000000;
+}
+
+.next-border-style-1 {
+	display: block;
+    width: 165px;
+    height: 2px;
+    margin: 30px auto;
+    background-color: #f05d13;
+    position: relative;
+}
+
+.breadcrumb-section {
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	padding: 100px 0 20px 0;
+	border-bottom: 2px solid #efefef;
+}
+
+.breadcrumb-section h1 {
+	margin: 0;
+	padding: 0;
+	font-size: 72px;
+	font-family: "Myriad Pro", "Open Sans", "Helvetica Neue", Arial;
+	font-weight: bold;
+	line-height: 64px;
+    height: 51px;
+	text-align: left;
+	color: #4c4c4c;
+}
+
+.breadcrumb-section h2 {
+	margin: 20px 0 0 0;
+	padding: 0;
+	font-size: 30px;
+	font-family: "Myriad Pro", "Open Sans", "Helvetica Neue", Arial;
+	font-weight: bold;
+	text-align: left;
+	color: #939187;
+}
+
+.gallery-header {
+	margin: 50px 0 20px 0;
+	padding: 0;
+	font-size: 40px;
+	font-family: "Myriad Pro", "Open Sans", "Helvetica Neue", Arial;
+	font-weight: bold;
+	text-align: left;
+	color: #4c4c4c;
+	border-bottom: 1px solid #efefef;
+}
+
+/*===================================== Margin Padding ============================================*/
+.mt-30 {
+	margin-top: 30px;
+}
+
+.mt-50 {
+	margin-top: 50px;
+}
+.nmp-0 {
+	margin: 0;
+	padding: 0;
+}
+/*===================================== Margin Padding ============================================*/
+/*===================================== Font Color ============================================*/
+.fc-ash {
+	color: #d1cfc8;
+}
+
+.fc-ash-dark {
+	color: #939187;
+}
+
+.fc-black {
+	color: #313131;
+}
+
+.fc-orange {
+	color: #f05d13;
+} 
+/*===================================== Font Color ============================================*/
+
+/*===================================== Background Color ============================================*/
+
+.bg-white {
+	background: #fff;
+}
+.bg-ash {
+	background: #eeeeee;
+}
+
+.bg-ash-light {
+	background: #f8f7f4;
+}
+
+.bg-ash-dark {
+	background: #d1cfc8;
+}
+
+.bg-black {
+	color: #1e2226;
+}
+
+.bg-black-light {
+	color: #333333;
+}
+
+/*===================================== Background Color ============================================*/
+
+/*===================================== Button ============================================*/
+
+.btn {
+	color: #f05d13;
+	background-color: #fff;
+	border: 1px solid #f05d13;
+	padding: 18px 35px 15px 35px;
+	/*margin: 30px auto;*/
+	font-size: 18px;
+	font-family: "Myriad Pro", "Open Sans", "Helvetica Neue", Arial;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: center;
+	moz-border-radius: 0;
+	-webkit-border-radius: 0;
+	border-radius: 0;
+}
+.nit-btn {
+	border:1px solid #f05d13;
+	color: #f05d13;
+	background: #fff;
+}
+.nit-btn:hover,
+.nit-btn:focus,
+.nit-btn:active,
+.nit-btn.active,
+.open .dropdown-toggle.nit-btn {
+	color: #ffffff;
+	background-color: #f05d13;
+	border-color: #f05d13;
+	text-decoration: none;
+}
+
+
+ul.na-icon-list {
+	padding-left: 0;
+}
+
+
+ul.na-icon-list li {
+	font-family: "Myriad Pro", "Open Sans", "Helvetica Neue", Arial;
+	font-size: 15px;
+	color: #888;
+	list-style: none;
+	font-weight: normal;
+	letter-spacing: .25px;
+	margin-bottom: 8px;
+    position: relative;
+    padding-left: 30px;
+}
+
+ul.na-icon-list li:last-child {
+    margin-bottom: 0;
+}
+
+ul.na-icon-list li i {
+    color: #fc7f0c;
+    position: absolute;
+    top: 3px;
+    left: 0;
+    width: 14px;
+    line-height: 12px;
+    border: 1px solid #fc7f0c;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 9px;
+    font-weight: 700;
+}
+
+ul.na-icon-list li i:before {
+    padding-left: 1px;
+}
+/*===================================== Button Color ============================================*/
+
+/*===================================== Bootstrap overwritr  ============================================*/
+
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
+    z-index: 3;
+    color: #fff;
+    cursor: default;
+    background-color: #f05d13;
+    border-color: #f05d13;
+}
+
+.pagination-lg > li > a, .pagination-lg > li > span {
+
+}
+
+.pagination > li > a, .pagination > li > span {
+
+    color: #f05d13;
+
+}
+
+.pagination > li > a:hover {
+	color: #f05d13;
+}
+
+
+/*===================================== Bootstrap overwritr  ============================================*/
+
+/*===================================== Header Section ============================================*/
+
+.header-section {
+	width: auto;
+	height: 115px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.logo {
+	width: 207px;
+	height: 78px;
+	margin: 20px 0 0 0;
+	padding: 0;
+	float: left;
+	/*background: url(../images/next-accessories-logo.png);*/
+}
+
+.c-margin {
+	margin-top: 10px;
+}
+
+/*===================================== Header Section ============================================*/
+
+/*===================================== Header Section ============================================*/
+
+.menubar {
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	padding: 0;
+	background: #d1cfc8;
+}
+
+/*===================================== Header Section ============================================*/
+
+/*===================================== Top Nav Section ============================================*/
+.navbar-toggle {
+    background-color: white;
+    margin-top: -60px;
+}
+.navbar-toggle .icon-bar {
+    background-color: #b2b3b6;
+}
+.navbar-nav > li > a {
+    color: #4c4c4c;
+    font-size: 14px;
+	font-family: "Myriad Pro", "Open Sans", "Helvetica Neue", Arial;
+	font-weight: bold;
+	padding: 18px 25px 12px 30px;
+}
+.nav-item:first-child a {
+    padding-left: 0;
+}
+.nav > li > a:hover{
+	color: #f05d13;
+	background: none;
+}
+.nav > li > a:focus {
+	outline: 0;
+	background: none;
+}
+/*.nav > li > a:focus {
+    background-color: #f05d13;
+	color: #fff;
+}*/
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+    background-color: #f05d13;
+	color: #fff;
+}
+.dropdown-menu {
+    background-color: #f05d13;
+    border: medium none;
+}
+.dropdown-menu > li > a {
+    color: #fff;
+    font-size: 14px;
+	font-family: "Myriad Pro", "Open Sans", "Helvetica Neue", Arial;
+	font-weight: bold;
+	padding: 10px 40px;
+}
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+    background: none;
+    color: #262626;
+}
+.navbar-nav > li > .dropdown-menu {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+/*===================================== Top Nav Section ============================================*/
+
+/*===================================== Banner Section ============================================*/
+.banner-section {
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	padding: 0;
+	background: #E6E7E8;
+}
+
+/*===================================== Banner Section ============================================*/
+
+/*===================================== INDEX Section ============================================*/
+/*===================================== INDEX Section ============================================*/
+
+/*===================================== Home gallery Section ============================================*/
+.home-gallery {
+	margin: 0;
+	padding: 0;
+}
+
+.home-gallery .col-md-3 {
+	margin: 0;
+	padding: 0;
+}
+
+.home-gallery .gallery-item {
+	overflow: hidden;
+    position: relative;
+}
+
+.home-gallery-icon {
+	position: absolute;
+    bottom: 78%;
+    right: 0;
+    left: 0;
+    margin: 0;
+    font-family: "Myriad Pro", "Open Sans", "Helvetica Neue", Arial;
+	font-size: 30px;
+	font-weight: bold;
+    text-align: left;
+    color: white;
+    padding-left: 20px;
+    display: inline-block;
+    width: auto;
+
+}
+
+.home-gallery-icon i {
+	line-height: 40px;
+}
+
+.home-gallery-icon a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    background: white;
+    top: 50%;
+    text-align: center;
+    color: #f05d13;
+}
+
+.home-gallery-icon a:hover {
+	color: white;
+	background: #f05d13;
+}
+
+.home-gallery-text {
+	position: absolute;
+    bottom: 10px;
+    right: 0;
+    left: 0;
+    margin: 0;
+    font-family: "Myriad Pro", "Open Sans", "Helvetica Neue", Arial;
+	font-size: 30px;
+	font-weight: bold;
+    text-align: left;
+    color: white;
+    padding-left: 20px;
+    display: inline-block;
+    width: auto;
+    text-shadow: 0px 2px 2px rgba(0,0,0,0.4),
+             	 0px 2px 2px rgba(0,0,0,0.1),
+             	 0px 2px 2px rgba(0,0,0,0.1);
+
+}
+
+
+
+.lb-loader,.lightbox{
+	text-align:center;
+	line-height:0}
+body:after{content:url(../images/close.png) url(../images/loading.gif) url(../images/prev.png) url(../images/next.png);display:none}.lb-dataContainer:after,.lb-outerContainer:after{content:"";clear:both}body.lb-disable-scrolling{overflow:hidden}.lightboxOverlay{position:absolute;top:0;left:0;z-index:9999;background-color:#000;filter:alpha(Opacity=80);opacity:.8;display:none}.lightbox{position:absolute;left:0;width:100%;z-index:10000;font-weight:400}.lightbox .lb-image{display:block;height:auto;max-width:inherit;border-radius:3px}.lightbox a img{border:none}.lb-outerContainer{position:relative;background-color:#fff;width:250px;height:250px;margin:0 auto;border-radius:4px}.lb-loader,.lb-nav{position:absolute;left:0}.lb-outerContainer:after{display:table}.lb-container{padding:4px}.lb-loader{top:43%;height:25%;width:100%}.lb-cancel{display:block;width:32px;height:32px;margin:0 auto;background:url(../images/loading.gif) no-repeat}.lb-nav{top:0;height:100%;width:100%;z-index:10}.lb-container>.nav{left:0}.lb-nav a{outline:0;background-image:url(data:image/gif;base64,R0lGODlhAQABAPAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==)}.lb-next,.lb-prev{height:100%;cursor:pointer;display:block}.lb-nav a.lb-prev{width:34%;left:0;float:left;background:url(../images/prev.png) left 48% no-repeat;/*filter:alpha(Opacity=0);opacity:0;-webkit-transition:opacity .6s;-moz-transition:opacity .6s;-o-transition:opacity .6s;transition:opacity .6s*/}.lb-nav a.lb-prev:hover{filter:alpha(Opacity=100);opacity:1}.lb-nav a.lb-next{width:64%;right:0;float:right;background:url(../images/next.png) right 48% no-repeat;/*filter:alpha(Opacity=0);opacity:0;-webkit-transition:opacity .6s;-moz-transition:opacity .6s;-o-transition:opacity .6s;transition:opacity .6s*/}.lb-nav a.lb-next:hover{filter:alpha(Opacity=100);opacity:1}.lb-dataContainer{margin:0 auto;padding-top:5px;width:100%;-moz-border-radius-bottomleft:4px;-webkit-border-bottom-left-radius:4px;border-bottom-left-radius:4px;-moz-border-radius-bottomright:4px;-webkit-border-bottom-right-radius:4px;border-bottom-right-radius:4px}.lb-dataContainer:after{display:table}.lb-data{padding:0 4px;color:#ccc}.lb-data .lb-details{width:85%;float:left;text-align:left;line-height:1.1em}.lb-data .lb-caption{font-size:13px;font-weight:700;line-height:1em}.lb-data .lb-number{display:block;clear:left;padding-bottom:1em;font-size:12px;color:#999}.lb-data .lb-close{display:block;float:right;width:30px;height:30px;background:url(../images/close.png) top right no-repeat;text-align:right;outline:0;filter:alpha(Opacity=70);opacity:.7;-webkit-transition:opacity .2s;-moz-transition:opacity .2s;-o-transition:opacity .2s;transition:opacity .2s}.lb-data .lb-close:hover{cursor:pointer;filter:alpha(Opacity=100);opacity:1}
+
+
+/*===================================== Home gallery Section ============================================*/
+
+
+/*===================================== News Section ============================================*/
+.news-container {
+	width: 100%;
+	height: auto;
+	margin: 30px auto;
+	padding: 0;
+}
+
+.date-box {
+	width: 100%;
+	height: 58px;
+	margin: 0 auto;
+	padding: 10px 0 0 0;
+	background: #f05d13;
+	color: #fff;
+	float: left;
+	font-family: "Myriad Pro", "Open Sans", "Helvetica Neue", Arial;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 20px;
+}
+
+.news-header {
+	margin: 0;
+	padding: 0;
+	font-size: 30px;
+	font-family: "Myriad Pro", "Open Sans", "Helvetica Neue", Arial;
+	font-weight: bold;
+	text-align: left;
+	color: #4c4c4c;
+	line-height: 32px;
+}
+.news-text {
+	margin: 30px 0 0 0;
+	padding: 0;
+	font-size: 15px;
+	font-family: "Myriad Pro", "Open Sans", "Helvetica Neue", Arial;
+	font-weight: normal;
+	text-align: left;
+	color: #666666;
+	line-height: 25px;
+	letter-spacing:0.25px;
+}
+
+.sidebar-news {
+	width: 100%;
+	height: auto;
+}
+
+.sidebar-news h1 {
+	margin: 0 0 10px 0;
+	padding: 0 0 10px 0;
+	font-size: 20px;
+	font-family: "Myriad Pro", "Open Sans", "Helvetica Neue", Arial;
+	font-weight: bold;
+	text-align: left;
+	border-bottom: 1px solid #f05d13;
+}
+
+/*===================================== News Section ============================================*/
+
+/*===================================== Contact Us Section ============================================*/
+.equal-cb {
+	height: 400px;
+}
+/*===================================== Contact Us Section ============================================*/
+
+/*===================================== PRESENTATION Section ============================================*/
+.pp-hide {
+	padding: 20px 0;
+}
+/*===================================== PRESENTATION Section ============================================*/
+
+/*===================================== Footer Section ============================================*/
+.footer-container {
+	width: 100%;
+	height: 110px;
+	background: #333333;
+}
+.copyright {
+	margin-top: 48px;
+	font-size: 14px;
+	font-family: "Myriad Pro", "Open Sans", "Helvetica Neue", Arial;
+	font-weight: normal;
+	text-align: right;
+	color: #a2a2a2;
+}
+
+.footer-menu {
+	width: 100%;
+	height: 30px;
+	margin-top: 48px;
+	padding: 0;
+	float: right;
+	text-align: right;
+}
+
+.footer-menu ul {
+	margin: 0;
+	padding: 0;
+}
+
+.footer-menu li {
+	margin: 0;
+	padding: 0;
+	display: inline;
+	
+}
+
+.footer-menu li a {
+	font-size: 14px;
+	font-family: "Myriad Pro", "Open Sans", "Helvetica Neue", Arial;
+	font-weight: normal;
+	color: #a2a2a2;
+	text-decoration: none;
+	text-align: right;
+	margin-left: 33px;
+}
+.footer-menu li a:hover {
+	color: #f05d13;
+	cursor: pointer;
+}
+
+.footer-logo { 
+	width: 175px;
+	height: 66px;
+	margin-top: 25px;
+	background: url('../images/next-accessories-logo-slogan.png');
+}
+/*===================================== Footer Section ============================================*/
+
+/*===================================== Gallery Section ============================================*/
+.thumbnail .caption {
+	padding: 3px;
+}
+.thumbnail .caption h3 {
+    font-size: 18px;
+	font-family: "Myriad Pro", "Open Sans", "Helvetica Neue", Arial;
+	font-weight: bold;
+	color: #4c4c4c;
+}
+/*===================================== Gallery Section ============================================*/
+
+/*===================================== FAQ Section ============================================*/
+
+.panel-title > a {
+	color: #f05d13;
+	font-weight: bold;
+}
+
+/*===================================== FAQ Section ============================================*/
+
+
+
+
+@media only screen { } /* Define mobile styles */
+
+@media only screen and (max-width: 40em) { 
+
+.breadcrumb-section {
+	height: auto;
+	padding-top: 20px;
+}
+
+.breadcrumb-section h1 {
+	font-size: 200%;
+
+}
+
+.breadcrumb-section h2 {
+	font-size: 200%;
+
+}
+
+.core-container h1 {
+	font-size: 40px;
+}
+
+.date-box {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.news-header {
+	font-size: 20px;
+}
+
+.sidebar-news h1 {
+	margin-top: 20px;
+}
+
+.nav-item:first-child a {
+    padding-left: 40px;
+}
+	} /* max-width 640px, mobile-only styles, use when QAing mobile issues */
+
+
+@media only screen and (min-width: 40.063em) { } /* min-width 641px, medium screens */
+
+@media only screen and (min-width: 40.063em) and (max-width: 64em) { } /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
+
+
+@media only screen and (min-width: 64.063em) { } /* min-width 1025px, large screens */
+
+@media only screen and (min-width: 64.063em) and (max-width: 90em) { } /* min-width 1025px and max-width 1440px, use when QAing large screen-only issues */
+
+
+@media only screen and (min-width: 90.063em) { } /* min-width 1441px, xlarge screens */
+
+@media only screen and (min-width: 90.063em) and (max-width: 120em) { } /* min-width 1441px and max-width 1920px, use when QAing xlarge screen-only issues */
+
+
+@media only screen and (min-width: 120.063em) { } /* min-width 1921px, xxlarge screens */
+
+
+
+
+
+@media screen and (min-device-width: 1440px) and (max-device-width: 1920px) {
+	.navbar-nav > li > a {
+		padding: 18px 20px 12px 30px;
+	}
+}	
+@media screen and (min-device-width: 1024px) and (max-device-width: 1440px) {
+	.navbar-nav > li > a {
+		padding: 18px 14px 12px 20px;
+	}
+}	
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) { 
+    /* STYLES HERE */
+	.navbar-nav > li > a {
+		padding: 18px 6px 12px 5px;
+	}
+	.dropdown-menu > li > a {
+		padding: 5px 20px;
+	}
+}
+	
+	
+@media screen and (min-device-width: 320px) and (max-device-width: 768px) { 
+    /* STYLES HERE */	
+	.navbar-nav .open .dropdown-menu {
+		background-color: #f05d13;
+	}
+	
+}	
+
+
+/*  Brand With Us  */
+
+.clients-section .clients-list {
+    margin: 0;
+}
+.clients-section {
+    padding: 4.5rem 0 0;
+    background-color: #303540;
+    margin-top: -2px;
+}
+
+.clients-section .container {
+    padding-bottom: 3.6rem;
+    border-bottom: 1px solid #424754;
+}
+
+.clients-section .heading-title.style-3 {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 25px;
+    margin-bottom: 0 !important;
+    margin-top: 8px;
+}
+
+.clients-section .hero-body {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.clients-section .clients-list {
+    margin: 0;
+}
+
+.clients-section .clients-list .client-item {
+    padding: 0;
+    min-height: 45px;
+}
+	
+	
+	
+	
+	
+	
