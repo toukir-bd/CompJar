@@ -28,37 +28,33 @@ section {
 	text-align: center;
 	color: #4c4c4c;
 	line-height: 64px;
-    height: 51px;
+    height: 38px;
 }
 
 .core-container h2 {
-	margin: 30px 0 0 0;
+	margin: 0;
 	padding: 0;
-	font-size: 30px;
+	font-size: 36px;
 	font-family: "Myriad Pro", "Open Sans", "Helvetica Neue", Arial;
-	font-weight: bold;
+	font-weight: 700;
 	text-align: center;
 	color: #939187;
+	letter-spacing: -1.35px;
 }
 
 .core-container p {
 	margin: 30px 0 0 0;
 	padding: 0;
-	font-size: 15px;
-	font-family: "Myriad Pro", "Open Sans", "Helvetica Neue", Arial;
-	font-weight: normal;
-	line-height: 26px;
 	text-align: center;
-	color: #000000;
 }
 
 .next-border-style-1 {
 	display: block;
-    width: 165px;
-    height: 2px;
-    margin: 30px auto;
-    background-color: #f05d13;
-    position: relative;
+	width: 100px;
+	height: 5px;
+	margin: 30px auto;
+	background-color: #f05d13;
+	position: relative;
 }
 
 .breadcrumb-section {
@@ -77,7 +73,7 @@ section {
 	font-weight: bold;
 	line-height: 64px;
     height: 51px;
-	text-align: left;
+	text-align: center;
 	color: #4c4c4c;
 }
 
@@ -87,7 +83,7 @@ section {
 	font-size: 30px;
 	font-family: "Myriad Pro", "Open Sans", "Helvetica Neue", Arial;
 	font-weight: bold;
-	text-align: left;
+	text-align: center;
 	color: #939187;
 }
 
@@ -271,12 +267,22 @@ ul.na-icon-list li i:before {
 }
 
 .logo {
-	width: 207px;
-	height: 78px;
-	margin: 20px 0 0 0;
+	width: auto;
+	height: 95px;
+	margin: 10px 0 10px;
 	padding: 0;
 	float: left;
-	/*background: url(../images/next-accessories-logo.png);*/
+}
+
+.logo a{
+	width: auto;
+	height: 95px;
+	display:block;
+}
+
+.logo a img{
+	width: auto;
+	height: 100%;
 }
 
 .c-margin {
@@ -353,6 +359,9 @@ ul.na-icon-list li i:before {
 .container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse {
     margin-left: -15px;
     margin-right: -15px;
+}
+.navbar-collapse.collapse{
+	text-align:center;
 }
 /*===================================== Top Nav Section ============================================*/
 
@@ -674,18 +683,18 @@ body:after{content:url(../images/close.png) url(../images/loading.gif) url(../im
 
 @media screen and (min-device-width: 1440px) and (max-device-width: 1920px) {
 	.navbar-nav > li > a {
-		padding: 18px 20px 12px 30px;
+		padding: 18px 20px 18px 30px;
 	}
 }	
 @media screen and (min-device-width: 1024px) and (max-device-width: 1440px) {
 	.navbar-nav > li > a {
-		padding: 18px 14px 12px 20px;
+		padding: 18px 14px 18px 20px;
 	}
 }	
 @media screen and (min-device-width: 768px) and (max-device-width: 1024px) { 
     /* STYLES HERE */
 	.navbar-nav > li > a {
-		padding: 18px 6px 12px 5px;
+		padding: 18px 6px 18px 5px;
 	}
 	.dropdown-menu > li > a {
 		padding: 5px 20px;
