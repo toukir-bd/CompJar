@@ -143,7 +143,7 @@ section {
 }
 
 .bg-ash-dark {
-	background: #d1cfc8;
+	background: #4b4b4b;
 }
 
 .bg-black {
@@ -298,7 +298,8 @@ ul.na-icon-list li i:before {
 	height: auto;
 	margin: 0 auto;
 	padding: 0;
-	background: #d1cfc8;
+	background: #4b4b4b;
+	border-bottom:3px solid #393939;
 }
 
 /*===================================== Header Section ============================================*/
@@ -312,7 +313,7 @@ ul.na-icon-list li i:before {
     background-color: #b2b3b6;
 }
 .navbar-nav > li > a {
-    color: #4c4c4c;
+    color: #ffffff;
     font-size: 14px;
 	font-family: "Myriad Pro", "Open Sans", "Helvetica Neue", Arial;
 	font-weight: bold;
@@ -372,6 +373,29 @@ ul.na-icon-list li i:before {
 	margin: 0 auto;
 	padding: 0;
 	background: #E6E7E8;
+}
+.banner-section .carousel .carousel-control{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+
+.banner-section .carousel .carousel-control span{
+	width: 60px;
+	height: 60px;
+	background: rgba(0,0,0,0.5);
+	border:2px solid rgba(0,0,0,0.75);
+	border-radius: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.banner-section .carousel .carousel-control:hover span{
+	background: rgba(0,0,0,0.7);
+	border:2px solid rgba(0,0,0,0.85);
+}
+.banner-section .carousel .carousel-control span:hover svg{
+	color:#F05D13;
 }
 
 /*===================================== Banner Section ============================================*/
